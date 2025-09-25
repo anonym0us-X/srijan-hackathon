@@ -1,0 +1,7 @@
+[theme]
+base = "dark"
+backgroundColor = "#2b4442"              # Main dark green background
+secondaryBackgroundColor = "#1b3434"     # Widget/card background (inner sections)
+primaryColor = "#28433e"                 # Accent, matching the suggestions bar
+accentColor = "#193231"                  # Button color (e.g., Analyze)
+textColor = "#FFFFFF"                    # Main white text

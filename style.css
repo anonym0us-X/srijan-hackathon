@@ -1,0 +1,61 @@
+/* In your main CSS file (e.g., style.css) */
+
+:root {
+  /* Define your color palette here */
+  --bg-primary: #F8F8F8;
+  --bg-secondary: #FFFFFF;
+  --text-primary: #2C3E50;
+  --text-secondary: #7F8C8D;
+  --accent-primary: #27AE60;
+  --accent-secondary: #F1C40F;
+  --border-color: #E0E0E0;
+
+  /* You can also define fonts, shadows, etc. here */
+  --border-radius: 8px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', 'Segoe UI', sans-serif; /* Example font */
+}
+
+/* Style for your main sections */
+.appliance-usage, .upload-bills, .suggestions-ml {
+  background-color: var(--bg-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Style for input fields */
+input, .drag-and-drop-area {
+  background-color: var(--bg-primary); /* Match the main background */
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  border-radius: 6px;
+}
+
+/* Style for the logo */
+.logo-icon {
+    color: var(--accent-secondary); /* Using the yellow for the sun icon */
+}
+
+/* Style for buttons */
+.button-analyze, .button-add-appliance {
+  background-color: var(--accent-primary);
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button-analyze:hover {
+  background-color: #229954; /* A slightly darker green for hover */
+}
